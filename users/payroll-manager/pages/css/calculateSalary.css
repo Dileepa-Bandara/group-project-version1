@@ -1,0 +1,79 @@
+html {
+    --background-color: #6880d3;
+    --font-family: serif;
+    --height: 75px;
+    --button-color: #ff4a07;
+    --button-color-side: #071d56;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+  }
+  
+  body {
+    font-family: serif;
+    height: 100%;
+  }
+  
+  .calculate-salary-container {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 6px grey;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  
+  .calculate-salary-title {
+    color: black;
+    font-weight: bold;
+  }
+  .calculate-salary-select {
+    margin-top: 1em;
+    left: 8em;
+
+
+  }
+  .calculate-salary-select label {
+    padding-right: 2em;
+position: relative;
+  }
+  
+  .calculate-salary-input {
+     position: relative;
+    margin-top: 1em;
+   
+
+  }
+  .calculate-salary-input input {
+    position: absolute;
+    left: 8em;
+  }
+  .calculate-salary-buttons {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+  }
+  
+  .calculate-salary-buttons a {
+    text-decoration: none;
+    background: #ff4a07;
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
+  
+  .calculate-salary-buttons button {
+    background: #071d56;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+  }
+  

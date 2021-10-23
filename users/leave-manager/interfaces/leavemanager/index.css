@@ -1,0 +1,171 @@
+html {
+  --background-color: #6880d3;
+  --font-family: serif;
+  --height: 75px;
+  --button-color: #ff4a07;
+  --button-color-side: #071d56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+body {
+  font-family: serif;
+}
+
+.main-container {
+  width: 100%;
+}
+/* top-menu ----------------------------------------------*/
+.top-container {
+  height: var(--height);
+  background: var(--background-color);
+  display: flex;
+  align-items: center;
+
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+
+.notification img {
+  height: 63px;
+  width: 65px;
+}
+
+.menu__icon {
+  flex-basis: 150px;
+  text-align: center;
+  margin-left: 40px;
+}
+.menu__icon button {
+  color: white;
+  width: 50px;
+  height: 33px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  background: var(--background-color);
+}
+
+.title {
+  flex-basis: 12em;
+  font-weight: bold;
+  margin-right: 8px;
+
+  color: white;
+}
+
+.position {
+  /* margin: auto; */
+
+  color: white;
+  flex-basis: 46em;
+  font-weight: bold;
+}
+
+.logout {
+  margin-right: 3em;
+  color: white;
+  padding-left: 1.8em;
+}
+
+.logout button {
+  background: var(--button-color);
+  border: none;
+  font-size: 25px;
+  padding: 0.5em;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* side-menu--------------------------------------------- */
+.side-container {
+  background: var(--background-color);
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.avatar {
+  margin-top: 6em;
+
+  flex-basis: 8em;
+}
+.avatar img {
+  width: 180px;
+  height: 180px;
+}
+
+.name {
+  flex-basis: 5em;
+
+  color: white;
+  font-weight: bold;
+}
+.buttons {
+  width: 10.8em;
+  font-size: 25px;
+  width: 90%;
+}
+.buttons button {
+  display: block;
+
+  width: 100%;
+  border: none;
+  background: var(--button-color-side);
+  border-radius: 10px;
+  height: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.buttons button a,
+.buttons button {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 0.4em;
+}
+
+.drop-content {
+  display: none;
+  background: var(--button-color-side);
+  opacity: 0.6;
+}
+
+.drop-content a {
+  display: block;
+
+  text-align: center;
+  padding: 0.4em;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  color: white;
+}
+/*content container---------------------------------------------------------------------------------------*/
+.content {
+  position: absolute;
+  width: 100%;
+  top: 3em;
+
+  /* border: 1px solid black; */
+  transition: margin-left 0.3s;
+  padding-top: 45px;
+  padding-left: 75px;
+  padding-right: 75px;
+}

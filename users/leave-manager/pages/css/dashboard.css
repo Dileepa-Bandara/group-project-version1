@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 25px;
+}
+
+.dashboard-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  /* margin-top: 45px; */
+}
+
+.mark-attendance {
+  display: flex;
+  height: 3.6em;
+  border-bottom: 2px solid black;
+}
+
+.mark-button {
+  margin-left: 1.5em;
+}
+
+.date {
+  padding-top: 0.5em;
+}
+.mark-button button {
+  padding: 0.5em;
+  border: none;
+  background: #14123c;
+  color: white;
+  border-radius: 10px;
+}
+
+.dashboard {
+  display: flex;
+  height: 8em;
+  /* background: blue; */
+  justify-content: center;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  margin-top: 1em;
+}
+
+.column-one,
+.column-two,
+.column-three {
+  width: 16em;
+  height: 8em;
+  background: #f2f2f2;
+  border-radius: 45px;
+  padding: 1em;
+  box-shadow: 10px 10px 6px grey;
+}
+
+.column-two,
+.column-three {
+  margin-left: 3em;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.dashboard-content {
+  margin-top: 1.5em;
+  color: red;
+  font-weight: bold;
+}
+
+.dashboard-content span {
+  display: block;
+  text-align: center;
+}
+
+.news-container {
+  margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 6px grey;
+  background: #f2f2f2;
+  border-radius: 45px;
+}
+.news-title {
+  color: #0a0d31;
+  font-weight: bold;
+}
+.headlines {
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-top: 1em;
+  width: 98%;
+  height: 4em;
+  border-radius: 20px;
+  padding: 1em;
+  border: 2px solid #14123c;
+}
+
+.news-container button {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+
+  border: none;
+  color: white;
+  background: #060d31;
+  border-radius: 40px;
+  padding: 0.5em;
+  width: 9em;
+}

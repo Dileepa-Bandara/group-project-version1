@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.add-new {
+  text-decoration: none;
+  background: darkblue;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  position: absolute;
+  right: 100px;
+}
+
+.table-container {
+  background: white;
+
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 10px 10px 6px grey;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.st-table-container {
+  display: flex;
+  justify-content: center;
+}
+.salaryTypeTitle {
+  color: black;
+}
+.st-table {
+  margin-top: 3em;
+  width: 90%;
+}
+.st-table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 1em;
+  text-align: center;
+}
+
+.st-table td a {
+  text-decoration: none;
+  background: #6880d3;
+  /* padding: 0.3em; */
+  color: white;
+  border-radius: 10px;
+  display: block;
+  width: 6em;
+  text-align: center;
+  margin: auto;
+  padding: 0.1em;
+}

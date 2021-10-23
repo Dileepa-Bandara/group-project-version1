@@ -1,0 +1,72 @@
+html {
+  --background-color: #6880d3;
+  --font-family: serif;
+  --height: 75px;
+  --button-color: #ff4a07;
+  --button-color-side: #071d56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+body {
+  font-family: serif;
+  height: 100%;
+}
+
+.edit-salary-container {
+  background: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: 10px 10px 6px grey;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-salary-title {
+  color: black;
+
+  font-weight: bold;
+}
+.edit-salary-select {
+  margin-top: 1em;
+}
+.edit-salary-select label {
+  padding-right: 2em;
+}
+
+.edit-Salary-input {
+  margin-top: 1em;
+  position: relative;
+}
+.edit-Salary-input input {
+  position: absolute;
+  left: 8em;
+}
+.edit-salary-buttons {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-between;
+}
+
+.edit-salary-buttons a {
+  text-decoration: none;
+  background: #ff4a07;
+  color: white;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+.edit-salary-buttons button {
+  background: #071d56;
+  color: white;
+  padding: 0.5em;
+  border: none;
+  border-radius: 10px;
+}

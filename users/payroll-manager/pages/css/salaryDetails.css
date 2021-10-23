@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.salary-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.salary-details-title-one {
+  text-align: center;
+  color: #ff6f00;
+  font-size: 2em;
+}
+
+.salary-details-title-two {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.salary-details-info {
+  margin-top: 1em;
+  width: 90%;
+  border-radius: 30px;
+  box-shadow: 10px 10px 6px grey;
+  padding: 1em;
+  display: flex;
+  padding: 1em;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.salary-details-info h4,
+p,
+br {
+  margin-top: 1em;
+}
+
+.salary-details button {
+  width: 250px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: none;
+  color: white;
+  background: #071d56;
+  padding: 0.3em;
+  border-radius: 10px;
+}
